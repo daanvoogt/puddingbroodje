@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: AmericanCaptain;
+    src: url(AmericanCaptain.ttf);
+}
+body{
+	background-image:url(background.jpg);
+	font-family:AmericanCaptain;
+    }
+#Container {
+    width:80%;
+    height:auto;
+}
+#Buitenste{
+width:1000px;
+height:830px;
+margin:auto;
+margin-top:20px;
+background-color:#929292;
+border-radius:75px 0px 75px 0px;
+border:solid black 1px;
+box-shadow:20px 20px 50px #4F4A4A;
+}
+
+#Middelste{
+width:960px;
+height:790px;
+margin-top:18px;
+background-color:black;
+border-radius:60px 0px 60px 0px;
+border:solid white 1px;
+}
+
+#Binnenste{
+width:920px;
+height:750px;
+margin-top:18px;
+background-color:#929292;
+border-radius:55px 0px 55px 0px;
+text-align:center;
+}
+#Header {
+    background-color:blue;
+    height:15%;
+    width:100%;
+    border-radius:55px 0px 0px 0px;
+}
+#Filteren {
+    background-color:red;
+    height:5%;
+    width:100%;
+}
+#Zoeken{
+    background-color:green;
+    height:75%;
+    width:20%;
+    float:left;
+}
+#Overzicht{
+    background-color:aqua;
+    height:75%;
+    width:80%;
+    float:left;
+}
+#Onder {
+    height:5%;
+    width:100%;
+    background-color:yellow;
+    float:left;
+    border-radius:0px 0px 55px 0px;
+}
