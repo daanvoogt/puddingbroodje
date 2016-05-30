@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="homeGebruiker.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <div id="Container">
+            <div id="Buitenste">
+                <div id="Middelste">
+                    <div id="Binnenste">
+                        <div id="Header">
+                            <img src="Puddinglogoremaster.png" style="width:350px;height:100px;margin-left:132px"  />
+                            <input class="uitloggen" type="submit" name="Uitloggen" value="Uitloggen" />
+                        </div>
+                        <div id="Filteren">
+                            <input type="checkbox" name="Vvoornaam" value="Voornaam" /> Voornaam
+                            <input type="checkbox" name="Vachternaam" value="Achternaam" />Achternaam
+                            <input type="checkbox" name="Vadres" value="adres" /> Adres
+                            <input type="checkbox" name="VPlaats" value="Plaats" /> Plaats
+                            <input type="checkbox" name="VPostcode" value="Postcode" /> Postcode
+                            <input type="submit" name="Filteren" value="Filteren" class="filterenknop" />
+                        </div>
+                        <div id="Zoeken">
+                            <form action="database.php" method="post">
+                                <h1>Zoeken: </h1>
+                                <tr><input class="tekstvak" type="text" name="Zvoornaam" placeholder="Voornaam" /></tr>
+                                <br /><br />
+                                <tr><input class="tekstvak" type="text" name="Zachternaam" placeholder="Achternaam" </tr>
+                                <br /><br />
+                                <tr><input class="tekstvak" type="text" name="Zadres" placeholder="Adres" </tr>
+                                <br /><br />
+                                <tr><input class="tekstvak" type="text" name="Zplaats" placeholder="Plaats" </tr>
+                                <br /><br />
+                                <tr><input class="tekstvak" type="text" name="Zpostcode" placeholder="Postcode" </tr>
+                                <br /><br />
+                                <input class="button" type="submit" name="Zoeken" value="Zoeken" />
+                            </form>
+                        </div>
+                        <div id="Overzicht"></div>
+                        <div id="Onder">
+                            <input class="ctoevoegen" type="submit" name="Ctoevoegen" value="Contactpersoon toevoegen" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

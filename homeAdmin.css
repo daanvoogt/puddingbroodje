@@ -1,0 +1,196 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 1 pixel = 0.144% */
+
+@font-face {
+    font-family: AmericanCaptain;
+    src: url(AmericanCaptain.ttf);
+}
+body{
+	background-image:url(background.jpg);
+	font-family:AmericanCaptain;
+    }
+#Container {
+    width:80%;
+    height:auto;
+}
+#Buitenste{
+    width:1000px;
+    height:830px;
+    margin:auto;
+    margin-top:20px;
+    background-color:#929292;
+    border-radius:75px 0px 75px 0px;
+    border:solid black 1px;
+    box-shadow:20px 20px 50px #4F4A4A;
+}
+
+#Middelste{
+    width:960px;
+    height:790px;
+    margin-top:18px;
+    background-color:black;
+    border-radius:60px 0px 60px 0px;
+    border:solid white 1px;
+}
+
+#Binnenste{
+    width:920px;
+    height:750px;
+    margin-top:18px;
+    background-color:#929292;
+    border-radius:55px 0px 55px 0px;
+    text-align:center;
+}
+#Header {
+    height:15%;
+    width:100%;
+    border-radius:55px 0px 0px 0px;
+    border-bottom:solid black 1px;
+}
+#Filteren {
+    height:5%;
+    width:100%;
+    border-bottom:solid black 1px;
+    font-size:18px;
+}
+#Zoeken{
+    height:75%;
+    width:20%;
+    float:left;
+    border-right:solid black 1px;
+}
+#Overzicht{
+    height:75%;
+    width:79.856%;
+    float:left;
+}
+#Onder {
+    height:5%;
+    width:100%;
+    float:left;
+    border-radius:0px 0px 55px 0px;
+    border-top:solid black 1px;
+}
+.button{
+    width:152px;
+    height:45px;
+    border:solid black 1px;
+    border-radius:5px 5px 5px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+}
+.button:hover{
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+
+.button:link{
+    text-decoration:none;
+    background-color:#4F4A4A;
+}
+
+.uitloggen {
+    width:152px;
+    height:45px;
+    border:solid black 1px;
+    border-radius:5px 0px 0px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+    float:right;
+}
+.uitloggen:hover{
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+.uitloggen:link{
+    text-decoration:none;
+    background-color:#4F4A4A;
+}
+.filteren {
+    text-align:left;
+    margin-left:200px;
+    padding:0px;
+    width:100px;
+}
+.filterenknop {
+    width:130px;
+    height:30px;
+    border:solid black 1px;
+    border-radius:5px 5px 5px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+    margin-left:10px;
+    margin-top:4px;
+}
+.filterenknop:hover{
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+.filterenknop:link {
+    text-decoration: none;
+    background-color: #4F4A4A;
+}
+.ctoevoegen {
+    width:230px;
+    height:29px;
+    border:solid black 1px;
+    border-radius:5px 5px 5px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+    margin-top:2px;
+    font-size:20px;
+}
+.ctoevoegen:hover{
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+.ctoevoegen:link {
+    text-decoration: none;
+    background-color: #4F4A4A;
+}
+.gtoevoegen {
+    width:230px;
+    height:29px;
+    border:solid black 1px;
+    border-radius:5px 5px 5px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+    margin-top:2px;
+    font-size:20px;
+    margin-left:30px;
+}
+.gtoevoegen:hover {
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+.gtoevoegen:link{
+    text-decoration: none;
+    background-color: #4F4A4A;
+}
+.overzichtgebruikers {
+    width:230px;
+    height:29px;
+    border:solid black 1px;
+    border-radius:5px 5px 5px 5px;
+    font-family:AmericanCaptain;
+    font-size:24px;
+    margin-top:2px;
+    font-size:20px;
+    margin-right:30px;
+}
+.overzichtgebruikers:hover {
+    background-color:#5B5B5B;
+    color:white;
+    border-color:black;
+}
+    .overzichtgebruikers:link {
+    text-decoration: none;
+    background-color: #4F4A4A;
+}
